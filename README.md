@@ -1,4 +1,4 @@
-# charts
+# KeyDB charts with Flash
 Kubernetes charts for KeyDB.
 Copied from: https://github.com/Enapter/charts
 
