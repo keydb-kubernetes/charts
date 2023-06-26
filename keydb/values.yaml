@@ -25,10 +25,10 @@ appendonly: "no"
 
 annotations: {}
 
-onFlash:
+onFlash: # see https://docs.keydb.dev/docs/flash-storage
   enabled: false
-  pathFlashStorage: "/flash"
-  maxmemory: 1G
+  pathFlashStorage: "/data/flash"
+  maxmemory: 1G # 1G, 500M, 1000K, etc keydb settings
   maxmemoryPolicy: "allkeys-lru"
 
 configExtraArgs: []
